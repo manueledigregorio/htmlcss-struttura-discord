@@ -115,7 +115,7 @@ display: flex;
 }
 
 .sfondo-footer{
-    height: 750px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,6 +123,8 @@ display: flex;
 .collum-grand{
     flex-grow: 2;
     height: 550px;
+    margin-bottom: 20px;
+    border: solid 1px whitesmoke;
 
 }
 .collum-small{
@@ -132,12 +134,22 @@ display: flex;
 }
 
 .border{
-    border-bottom: 1px solid green;
+    border-bottom: 2px solid green;
+   
    
 }
 
 .bar-footer{
-    height: 50px;
+    height: 60px;
     width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.box-footer-final{
     display: flex;
+    height: 20px;
+   
 }
