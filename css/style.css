@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug-blu{
+    background-color: cornflowerblue;
+
+}
+.debug-rosso{
+    background-color: crimson;
+
+}
+.header{
+height: 70px;
+background-color: aqua;
+display: flex;
+    
+}
+
+.link{
+    width: 60%;
+    max-width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+    align-self: center;
+    display: flex;
+}
+
+.box-logo { 
+    width: 20%;
+}
+.content-link{
+ width: 60%;
+ display: flex;
+ justify-content: center;
+ align-self: center;
+}
+.box-login{
+ width: 20%;
+}
+    
