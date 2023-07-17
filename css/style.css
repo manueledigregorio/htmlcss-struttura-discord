@@ -12,6 +12,14 @@
     background-color: crimson;
 
 }
+.debug-giallo{
+    background-color: goldenrod;
+}
+
+.debug-white{
+    background-color: white;
+}
+
 .header{
 height: 70px;
 background-color: aqua;
@@ -39,6 +47,7 @@ display: flex;
 }
 .box-login{
  width: 20%;
+ text-align: right;
 }
 
 .container{
@@ -47,17 +56,41 @@ display: flex;
     margin: 0 auto;
 }
 
-.background-blu{
+.hero{
     width: 100%;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
 }
 
 .content-center{
     width: 60%;
     height: 80%;
-    margin: 0 auto;
-    align-self: center;
-    display: block;
-   
+ } 
+ 
+ .block-blu{
+    width: 100%;
+    height: 300px;
+ }
+ .block-1{
+    display: flex;
+ }
+
+.block-img{
+  width: 60%;
+  height: 500px;
+}
+
+.block-text{
+    width: 40%;
+    height: 500px;
+}
+
+.sfondo{
+ height: 600px;   
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
